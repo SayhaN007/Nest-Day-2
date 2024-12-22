@@ -1,0 +1,75 @@
+.navbar-transparent {
+    background-color: transparent ;
+  }
+  .navbar {
+    transition: background-color 0.3s ease;
+  }
+  .navbar-transparent .nav-link,
+  .navbar-transparent .navbar-brand {
+    color: white !important;
+  }
+  .navbar .navbar-brand {
+    font-size: 1.8rem; 
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .navbar .nav-link {
+    font-size: 1.2rem; 
+    font-family: "DM Serif Text", serif;
+  }
+  .bruno-ace-sc-regular {
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .video-container {
+    position: relative;
+ 
+    overflow: hidden;
+}
+
+.video-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: greenyellow;
+    font-size: 3.5rem;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    z-index: 2; /* Ensures the text is above the video */
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 600;
+}
+.nav-link {
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transform: scale(1.1); 
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.03); /* Move up and scale */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
